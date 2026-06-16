@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    color:black;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.top-banner {
+
+    background-color: tan;
+    background-size: cover;
+    background-position: center;
+
+    height: 75vh;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.top-banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.top-banner p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
