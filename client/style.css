@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color:black;
+    font-family: Arial;
+    
+}
+
+h1 {
+  position:absolute;
+  bottom: 5em;
+  left: 3em;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3em;
+
+}
+
+.top-banner {
+       background-image:
+        linear-gradient(
+             rgba(0,0,0,0.5),
+             rgba(0,0,0,0.5)
+        ),
+        url("images/banner.jpeg");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 75vh;
+
+    color: white;
+
+    
+    
+   
+}
+
+
+.top-banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.top-banner p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
