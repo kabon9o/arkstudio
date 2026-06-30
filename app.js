@@ -20,16 +20,16 @@ app.listen(port, () => {
 
 //It is a back and forth interaction with the user and the client*
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "index.html"));
+  res.sendFile(path.join(__dirname, "client", "index"));
 });
 app.get("/aboutMe", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "AboutMe.html"));
+  res.sendFile(path.join(__dirname, "client", "AboutMe"));
 });
 app.get("/originalArt", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "OriginalArt.html"));
+  res.sendFile(path.join(__dirname, "client", "OriginalArt"));
 });
 app.get("/prints", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "prints.html"));
+  res.sendFile(path.join(__dirname, "client", "prints"));
 });
 
 //app.get ("/page" (req, res) =>{

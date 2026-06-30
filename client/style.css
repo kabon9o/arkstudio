@@ -45,3 +45,16 @@ body {
     font-size: 1em;
     margin-top: 0.5em;
 }
+
+ main {
+    background-color: black;
+    color:white;
+}
+
+.pop-piece{
+    display: flex;
+    flex-direction: row;
+    height: 3.5em;
+    align-items: center;
+    margin-left: 3.5em;
+}
